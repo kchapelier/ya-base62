@@ -1,0 +1,30 @@
+{
+  "name": "ya-base62",
+  "version": "1.0.0",
+  "description": "Yet Another Base62, first and foremost designed to encode to and decode from structured strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/",
+    "benchmark": "node benchmark/benchmarks.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kchapelier/ya-base62.git"
+  },
+  "keywords": [
+    "base62"
+  ],
+  "author": "Kevin Chapelier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kchapelier/ya-base62/issues"
+  },
+  "homepage": "https://github.com/kchapelier/ya-base62",
+  "devDependencies": {
+    "base62": "^1.1.2",
+    "base62.js": "^0.5.0",
+    "chai": "~3.5.0",
+    "mocha": "~3.3.0"
+  }
+}
