@@ -127,4 +127,12 @@ explained by the fact that they allow the use of custom charset.
 
 [Benchmark code](https://github.com/kchapelier/ya-base62/blob/master/benchmark/benchmarks.js)
 
+## Changelog
 
+### 1.0.0 (2017.05.14) :
+
+ * First implementation
+
+## License
+
+MIT
