@@ -112,7 +112,7 @@ Convert the entirety of a given base 62 string to an integer.
 
 ## Benchmark
 
-It should be noted that this benchmark is slightly unfair. The slowness of the other module when encoding can be
+It should be noted that this benchmark is slightly unfair. The slowness of the other module when decoding can be
 explained by the fact that they allow the use of custom charset.
 
 | Operation  | Module | Results | Time elapsed |
