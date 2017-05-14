@@ -1,5 +1,7 @@
 # Yet Another Base62
 
+[![Build Status](https://travis-ci.org/kchapelier/ya-base62.svg)](https://travis-ci.org/kchapelier/ya-base62) [![NPM version](https://badge.fury.io/js/ya-base62.svg)](http://badge.fury.io/js/ya-base62)
+
 ## Installing and testing
 
 With [npm](http://npmjs.org) do:
@@ -110,8 +112,8 @@ Convert the entirety of a given base 62 string to an integer.
 
 ## Benchmark
 
-It should be noted that this benchmark is slightly unfair. The slowness of the other module can be explained by the fact
-that they allow the use of custom charset other than `0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`.
+It should be noted that this benchmark is slightly unfair. The slowness of the other module when encoding can be
+explained by the fact that they allow the use of custom charset.
 
 | Operation  | Module | Results | Time elapsed |
 | ---------- | ------ | ------- | ------------ |
