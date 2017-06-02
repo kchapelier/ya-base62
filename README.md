@@ -117,13 +117,13 @@ explained by the fact that they allow the use of custom charset.
 
 | Operation  | Module | Results | Time elapsed |
 | ---------- | ------ | ------- | ------------ |
-| decoding (1000000x) | ya-base62@1.0.0 | correct | 97.88 ms |
-| decoding (1000000x) | base62@1.1.2 | correct | 2149.35 ms |
-| decoding (1000000x) | base62.js@0.5.0 | correct | 909.97 ms |
-| encoding (1000000x) | ya-base62@1.0.0 | correct | 63.78 ms |
-| encoding (1000000x) | base62@1.1.2 | correct | 57.27 ms |
-| encoding (1000000x) | base62js@0.5.0 | correct | 86.71 ms |
-| mbValueToBase62 on 10 characters (1000000x) | ya-base62@1.0.0 | correct | 180.27 ms |
+| decoding (1000000x) | ya-base62@1.0.0 | correct | 92.60 ms |
+| decoding (1000000x) | base62@1.2.0 | correct | 69.02 ms |
+| decoding (1000000x) | base62.js@0.5.0 | correct | 545.01 ms |
+| encoding (1000000x) | ya-base62@1.0.0 | correct | 74.94 ms |
+| encoding (1000000x) | base62@1.2.0 | correct | 66.99 ms |
+| encoding (1000000x) | base62js@0.5.0 | correct | 80.39 ms |
+| mbValueToBase62 on 10 characters (1000000x) | ya-base62@1.0.0 | correct | 190.31 ms |
 
 [Benchmark code](https://github.com/kchapelier/ya-base62/blob/master/benchmark/benchmarks.js)
 
